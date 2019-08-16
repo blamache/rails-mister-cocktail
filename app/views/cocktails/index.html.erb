@@ -2,7 +2,8 @@
   <div class="banner-content">
     <h1>Le Wagon's cocktails</h1>
     <p>Awesome beverages for developers nightlife</p>
-    <%= link_to "Add a cocktail", new_cocktail_path, class: "btn btn-primary btn-lg" %>
+    <!-- btn btn-primary btn-lg  , class: 'artdeco-button' -->
+    <%= link_to "Add a cocktail", new_cocktail_path, class: "artdeco-button" %>
   </div>
 </div>
 <div class="container">
@@ -13,7 +14,8 @@
           <div class="card-description">
             <h2><%= cocktail.name %></h2>
           </div>
-          <%= link_to "", cocktail_path(cocktail), class: 'card-link' %>
+          <!-- card-link  , class: 'artdeco-button' -->
+          <%= link_to "", cocktail_path(cocktail), class: 'artdeco-button' %>
         </div>
       </div>
     <% end %>

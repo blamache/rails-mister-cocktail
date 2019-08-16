@@ -1,0 +1,22 @@
+.artdeco-button {
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    align-items: center;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-flex;
+    justify-content: center;
+    max-width: 480px;
+    outline-width: 2px;
+    text-align: center;
+    transition-property: background-color,box-shadow,color;
+
+    font-size: 1.6rem;
+    min-height: 32px;
+    line-height: 20px;
+    padding: 6px 12px;
+
+    background-color: #0073b1;
+    color: #fff;
+}
